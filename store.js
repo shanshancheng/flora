@@ -5,7 +5,6 @@
  * localStorage数据的存储
  * */
 export function saveToLocal(id,key,value){
-
   let seller = window.localStorage.__seller__;
   if(!seller){
     seller = {};
